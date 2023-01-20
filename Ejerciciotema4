@@ -1,0 +1,46 @@
+public class Ejercicio4 {
+    public static void main(String[] args) {
+        var numerolf = -1;
+        if (numerolf <0){
+            System.out.println(numerolf+" ->Numero negativo");
+        }else{
+            System.out.println(numerolf+" ->Numero positivo");
+        }
+
+        int numeroWhile=0;
+        while (numeroWhile < 3){
+            System.out.println(numeroWhile);
+            numeroWhile+=1;
+        }
+
+        do {
+            System.out.println(numeroWhile);
+            numeroWhile+=1;
+        }while (numeroWhile<3);
+
+        for(int numeroFor=0;numeroFor<=3;numeroFor++){
+            System.out.println(numeroFor);
+        }
+
+        var estacion = "INVIER";
+        switch (estacion){
+            case "VERANO":
+                System.out.println("La estación es VERANO");
+                break;
+            case "INVIERNO":
+                System.out.println("La estación es INVIERNO");
+                break;
+            case "PRIMAVERA":
+                System.out.println("La estación es PRIMAVERA");
+                break;
+            case "OTOÑO":
+                System.out.println("La estación es OTOÑO");
+                break;
+            default:
+                System.out.println("La estación **NO VALIDA**");
+        }
+
+
+
+    }
+}
